@@ -17,7 +17,7 @@
     </div>
   </header>
 
-  <div class="photo">
+  <div class="photo" id="photo">
     <img srcset=
     "images/museum-320_x_180.jpg 320w,
     images/museum-480_x_270.jpg 480w,
@@ -34,13 +34,7 @@
     alt="a photo of a museum with large paintings on the walls"
     src="images/museum.jpg">
 
-
   <picture>
-    <source srcset="images/museum-960_x_960.jpg,
-    images/museum-1920_x_1920.jpg 2x,
-    images/museum-2880_x_2880.jpg 3x"
-    media="(min-width: 960px)">
-
     <source srcset="images/museum-800_x_800.jpg,
     images/museum-1600_x_1600.jpg 2x,
     images/museum-2400_x_2400.jpg 3x"
@@ -50,6 +44,11 @@
     images/museum-1280_x_1280.jpg 2x,
     images/museum-1920_x_1920.jpg 3x"
     media="(min-width: 1280px)">
+
+    <source srcset="images/museum-960_x_960.jpg,
+    images/museum-1920_x_1920.jpg 2x,
+    images/museum-2880_x_2880.jpg 3x"
+    media="(min-width: 960px)">
 
     <source srcset="images/museum-720_x_405.jpg,
     images/museum-1440_x_810.jpg 2x,
